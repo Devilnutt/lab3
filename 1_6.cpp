@@ -9,6 +9,7 @@ int fib(int n)
   }
 }
 int main() {
+ setlocale(LC_ALL, "Russian");
  int n;
  std::cout << "Введите n:";
  std::cin >> n;
