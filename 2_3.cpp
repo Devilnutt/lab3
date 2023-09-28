@@ -1,6 +1,7 @@
 #include <iostream>
 
 int main(){
+    setlocale(LC_ALL, "Russian");
     int a,sum=0,i=0;
     while(1)
     {
